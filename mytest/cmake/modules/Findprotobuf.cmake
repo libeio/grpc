@@ -1,7 +1,7 @@
 
-find_library(protobuf_LIBRARY protobuf HINTS "/usr/local/protobuf/lib")
+find_library(protobuf_LIBRARY protobuf HINTS "/usr/local/grpc/lib64")
 
-find_path(protobuf_INCLUDE google/protobuf/message.h HINTS "/usr/local/protobuf/include")
+find_path(protobuf_INCLUDE google/protobuf/message.h HINTS "/usr/local/grpc/include")
 
 if(protobuf_LIBRARY AND protobuf_INCLUDE)
     set(PROTOBUF_FOUND TRUE)

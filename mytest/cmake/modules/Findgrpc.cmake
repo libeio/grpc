@@ -1,7 +1,7 @@
 
-find_library(grpc_LIBRARY grpc HINTS "/usr/local/grpc/lib")
+find_library(grpc_LIBRARY grpc HINTS "${PROJECT_SOURCE_DIR}/../build")
 
-find_path(grpc_INCLUDE grpc.h HINTS "/usr/local/grpc/include")
+find_path(grpc_INCLUDE grpc/grpc.h HINTS "/usr/local/grpc/include")
 
 if(grpc_LIBRARY AND grpc_INCLUDE)
     set(ZMQ_FOUND TRUE)
@@ -11,3 +11,4 @@ if(grpc_LIBRARY AND grpc_INCLUDE)
 else()
     message(FATAL_ERROR "${Red}Failed to locate grpc dependency.${Reset}")
 endif()
+

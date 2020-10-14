@@ -1,46 +1,51 @@
 
-#include <iostream>
+#include <cstdio>
 #include <string>
 
 #include <grpcpp/grpcpp.h>
 
-#include "helloworld.pb.h"
+#include "helloworld.grpc.pb.h"
 
 class GreeterClient
 {
 public:
     GreeterClient(std::shared_ptr<grpc::Channel> channel)
-        : stub_(Greeter::NewStub(channel)) {}
+        : stub_(helloworld::Greeter::NewStub(channel)) {}
         
-    std::string SayHello(const std::string& user)
+    std::string RequestSayHello(const std::string& user)
     {
-        test::HelloRequest request;
+        helloworld::HelloRequest request;
 
         request.set_name(user);
         
-        test::HelloReply reply;
+        helloworld::HelloReply reply;
         grpc::ClientContext context;
+        
+        /** 客户端调用与服务端某个服务同名的函数，向服务端的这个服务发送请求 */
         grpc::Status status = stub_->SayHello(&context, request, &reply);
         if (status.ok()) {
             return reply.message();
         } else {
-            std::cout << status.error_code() << ": " << status.error_message() << std::endl;
+            printf("error %d: %s\n", status.error_code(), status.error_message().c_str());
             return "RPC failed";
         }
     }
     
 private:
-    std::unique_ptr<Greeter::Stub> stub_;
+    std::unique_ptr<helloworld::Greeter::Stub> stub_;
 };
 
 int main(int argc, char * argv[])
 {
+    (void) argc;
+    (void) argv;   
+
     GreeterClient greeter(grpc::CreateChannel("127.0.0.1:50051", grpc::InsecureChannelCredentials()));
 
     std::string user("world");
-    std::string reply = greeter.SayHello(user);
+    std::string reply = greeter.RequestSayHello(user);
     
-    std::cout << "Greeter Client received: " << reply << std::endl;
+    printf("Greeter Client received: %s\n", reply.c_str());
     
     return 0;
 }

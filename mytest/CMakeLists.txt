@@ -46,6 +46,19 @@ string(REGEX REPLACE "^lib" "" grpc_LIBRARY_NAME ${grpc_LIBRARY_NAME})
 link_directories(${grpc_LIBRARY_PATH})
 
 #
+# Support grpcpp
+#
+find_package(grpcpp REQUIRED)
+include_directories(SYSTEM ${grpcpp_INCLUDE})
+get_filename_component(grpc++_LIBRARY_PATH ${grpc++_LIBRARY} PATH)
+get_filename_component(grpc++_LIBRARY_NAME ${grpc++_LIBRARY} NAME_WE)
+string(REGEX REPLACE "^lib" "" grpc++_LIBRARY_NAME ${grpc++_LIBRARY_NAME})
+
+get_filename_component(grpc++_reflection_LIBRARY_PATH ${grpc++_reflection_LIBRARY} PATH)
+get_filename_component(grpc++_reflection_LIBRARY_NAME ${grpc++_reflection_LIBRARY} NAME_WE)
+string(REGEX REPLACE "^lib" "" grpc++_reflection_LIBRARY_NAME ${grpc++_reflection_LIBRARY_NAME})
+
+#
 # Test in Sub Directories
 #
 if(BUILD_1_FIRST_TEST)
