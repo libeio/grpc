@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC    -shared -Wl,-soname,libabsl_malloc_internal.so -o libabsl_malloc_internal.so CMakeFiles/absl_malloc_internal.dir/internal/low_level_alloc.cc.o libabsl_base.so libabsl_dynamic_annotations.so libabsl_raw_logging_internal.so -lpthread libabsl_log_severity.so libabsl_spinlock_wait.so -Wl,-rpath,/home/gitfork/grpc/build/third_party/abseil-cpp/absl/base 

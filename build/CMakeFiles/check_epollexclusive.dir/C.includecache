@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//src/core/lib/iomgr/is_epollexclusive_available.h
+grpc/support/port_platform.h
+-
+stdbool.h
+-
+
+../include/grpc/impl/codegen/port_platform.h
+windows.h
+-
+features.h
+-
+linux/version.h
+-
+Availability.h
+-
+TargetConditionals.h
+-
+features.h
+-
+android/ndk-version.h
+-
+stdint.h
+-
+stdint.h
+-
+
+../include/grpc/support/port_platform.h
+grpc/impl/codegen/port_platform.h
+-
+
+/home/gitfork/grpc/test/build/check_epollexclusive.c
+src/core/lib/iomgr/is_epollexclusive_available.h
+/home/gitfork/grpc/test/build/src/core/lib/iomgr/is_epollexclusive_available.h
+

@@ -1,0 +1,3038 @@
+The system is: Linux - 3.10.0-862.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/gitfork/grpc/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/gitfork/grpc/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1f5cc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1f5cc.dir/build.make CMakeFiles/cmTC_1f5cc.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f5cc.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1f5cc.dir/testCCompiler.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1f5cc
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f5cc.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1f5cc.dir/testCCompiler.c.o  -o cmTC_1f5cc 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_08996/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_08996.dir/build.make CMakeFiles/cmTC_08996.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_08996.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_08996.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_08996
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08996.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_08996.dir/CMakeCCompilerABI.c.o  -o cmTC_08996  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08996' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_08996 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_08996.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_08996/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_08996.dir/build.make CMakeFiles/cmTC_08996.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_08996.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_08996.dir/CMakeCCompilerABI.c.o   -c /usr/local/cmake/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_08996]
+  ignore line: [/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08996.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_08996.dir/CMakeCCompilerABI.c.o  -o cmTC_08996  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_08996' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_08996 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_08996.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_08996] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_08996.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f506e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f506e.dir/build.make CMakeFiles/cmTC_f506e.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f506e.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_f506e.dir/feature_tests.c.o   -c /home/gitfork/grpc/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f506e
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f506e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f506e.dir/feature_tests.c.o  -o cmTC_f506e 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0c39b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0c39b.dir/build.make CMakeFiles/cmTC_0c39b.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c39b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_0c39b.dir/feature_tests.c.o   -c /home/gitfork/grpc/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0c39b
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c39b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0c39b.dir/feature_tests.c.o  -o cmTC_0c39b 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_bfd48/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_bfd48.dir/build.make CMakeFiles/cmTC_bfd48.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfd48.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_bfd48.dir/feature_tests.c.o   -c /home/gitfork/grpc/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bfd48
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfd48.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bfd48.dir/feature_tests.c.o  -o cmTC_bfd48 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_11038/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_11038.dir/build.make CMakeFiles/cmTC_11038.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11038.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_11038.dir/testCXXCompiler.cxx.o -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_11038
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11038.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_11038.dir/testCXXCompiler.cxx.o  -o cmTC_11038 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f5431/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f5431.dir/build.make CMakeFiles/cmTC_f5431.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5431.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_f5431.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f5431
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5431.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_f5431.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f5431  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f5431' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f5431 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_f5431.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_f5431/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_f5431.dir/build.make CMakeFiles/cmTC_f5431.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f5431.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_f5431.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/cmake/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f5431]
+  ignore line: [/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5431.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_f5431.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f5431  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-39) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f5431' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f5431 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_f5431.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f5431] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_f5431.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4175e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4175e.dir/build.make CMakeFiles/cmTC_4175e.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4175e.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_4175e.dir/feature_tests.cxx.o -c /home/gitfork/grpc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4175e
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4175e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_4175e.dir/feature_tests.cxx.o  -o cmTC_4175e 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c5d8a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c5d8a.dir/build.make CMakeFiles/cmTC_c5d8a.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c5d8a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_c5d8a.dir/feature_tests.cxx.o -c /home/gitfork/grpc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c5d8a
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5d8a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c5d8a.dir/feature_tests.cxx.o  -o cmTC_c5d8a 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9ab62/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9ab62.dir/build.make CMakeFiles/cmTC_9ab62.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9ab62.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_9ab62.dir/feature_tests.cxx.o -c /home/gitfork/grpc/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9ab62
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ab62.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_9ab62.dir/feature_tests.cxx.o  -o cmTC_9ab62 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c5d91/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c5d91.dir/build.make CMakeFiles/cmTC_c5d91.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5d91.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_c5d91.dir/CheckIncludeFile.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c5d91
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5d91.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_c5d91.dir/CheckIncludeFile.c.o  -o cmTC_c5d91 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a3c17/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a3c17.dir/build.make CMakeFiles/cmTC_a3c17.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3c17.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_a3c17.dir/CheckFunctionExists.c.o   -c /usr/local/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a3c17
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3c17.dir/link.txt --verbose=1
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a3c17.dir/CheckFunctionExists.c.o  -o cmTC_a3c17 -lpthread 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists in the nsl passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8ed99/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8ed99.dir/build.make CMakeFiles/cmTC_8ed99.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ed99.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname -fPIE   -o CMakeFiles/cmTC_8ed99.dir/CheckFunctionExists.c.o   -c /usr/local/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ed99
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ed99.dir/link.txt --verbose=1
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_8ed99.dir/CheckFunctionExists.c.o  -o cmTC_8ed99 -rdynamic -lnsl 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d59d5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d59d5.dir/build.make CMakeFiles/cmTC_d59d5.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d59d5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE   -o CMakeFiles/cmTC_d59d5.dir/CheckFunctionExists.c.o   -c /usr/local/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d59d5
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d59d5.dir/link.txt --verbose=1
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_d59d5.dir/CheckFunctionExists.c.o  -o cmTC_d59d5 -rdynamic -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c2749/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c2749.dir/build.make CMakeFiles/cmTC_c2749.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2749.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_c2749.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c2749
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2749.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_c2749.dir/CheckIncludeFiles.c.o  -o cmTC_c2749 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/socket.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5b76d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5b76d.dir/build.make CMakeFiles/cmTC_5b76d.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b76d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_5b76d.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_5b76d
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b76d.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_5b76d.dir/CheckIncludeFiles.c.o  -o cmTC_5b76d -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/inet.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d6c82/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d6c82.dir/build.make CMakeFiles/cmTC_d6c82.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6c82.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_d6c82.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d6c82
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6c82.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_d6c82.dir/CheckIncludeFiles.c.o  -o cmTC_d6c82 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/nameser_compat.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f51fb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f51fb.dir/build.make CMakeFiles/cmTC_f51fb.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f51fb.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_f51fb.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_f51fb
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f51fb.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_f51fb.dir/CheckIncludeFiles.c.o  -o cmTC_f51fb -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files arpa/nameser.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a3749/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a3749.dir/build.make CMakeFiles/cmTC_a3749.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3749.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_a3749.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a3749
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3749.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_a3749.dir/CheckIncludeFiles.c.o  -o cmTC_a3749 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_31c72/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_31c72.dir/build.make CMakeFiles/cmTC_31c72.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31c72.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_31c72.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_31c72
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c72.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_31c72.dir/CheckIncludeFiles.c.o  -o cmTC_31c72 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files errno.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fcaa8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fcaa8.dir/build.make CMakeFiles/cmTC_fcaa8.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcaa8.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_fcaa8.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_fcaa8
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcaa8.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_fcaa8.dir/CheckIncludeFiles.c.o  -o cmTC_fcaa8 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8636b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8636b.dir/build.make CMakeFiles/cmTC_8636b.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8636b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_8636b.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_8636b
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8636b.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_8636b.dir/CheckIncludeFiles.c.o  -o cmTC_8636b -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_99226/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_99226.dir/build.make CMakeFiles/cmTC_99226.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99226.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_99226.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_99226
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99226.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_99226.dir/CheckIncludeFiles.c.o  -o cmTC_99226 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9c35f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9c35f.dir/build.make CMakeFiles/cmTC_9c35f.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c35f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_9c35f.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9c35f
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c35f.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_9c35f.dir/CheckIncludeFiles.c.o  -o cmTC_9c35f -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d9e43/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d9e43.dir/build.make CMakeFiles/cmTC_d9e43.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9e43.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_d9e43.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d9e43
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9e43.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_d9e43.dir/CheckIncludeFiles.c.o  -o cmTC_d9e43 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_554ed/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_554ed.dir/build.make CMakeFiles/cmTC_554ed.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_554ed.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_554ed.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_554ed
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_554ed.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_554ed.dir/CheckIncludeFiles.c.o  -o cmTC_554ed -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netdb.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ffc25/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ffc25.dir/build.make CMakeFiles/cmTC_ffc25.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffc25.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_ffc25.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ffc25
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc25.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_ffc25.dir/CheckIncludeFiles.c.o  -o cmTC_ffc25 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/in.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9d512/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9d512.dir/build.make CMakeFiles/cmTC_9d512.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9d512.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_9d512.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9d512
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d512.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_9d512.dir/CheckIncludeFiles.c.o  -o cmTC_9d512 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files netinet/tcp.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f73af/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f73af.dir/build.make CMakeFiles/cmTC_f73af.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f73af.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_f73af.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_f73af
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f73af.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_f73af.dir/CheckIncludeFiles.c.o  -o cmTC_f73af -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files net/if.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e0f9f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e0f9f.dir/build.make CMakeFiles/cmTC_e0f9f.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0f9f.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_e0f9f.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e0f9f
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0f9f.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_e0f9f.dir/CheckIncludeFiles.c.o  -o cmTC_e0f9f -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files signal.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_9f469/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_9f469.dir/build.make CMakeFiles/cmTC_9f469.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f469.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_9f469.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_9f469
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f469.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_9f469.dir/CheckIncludeFiles.c.o  -o cmTC_9f469 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5317a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5317a.dir/build.make CMakeFiles/cmTC_5317a.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5317a.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_5317a.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_5317a
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5317a.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_5317a.dir/CheckIncludeFiles.c.o  -o cmTC_5317a -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a1da6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a1da6.dir/build.make CMakeFiles/cmTC_a1da6.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1da6.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_a1da6.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a1da6
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1da6.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_a1da6.dir/CheckIncludeFiles.c.o  -o cmTC_a1da6 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4fb7e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4fb7e.dir/build.make CMakeFiles/cmTC_4fb7e.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fb7e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_4fb7e.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_4fb7e
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fb7e.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_4fb7e.dir/CheckIncludeFiles.c.o  -o cmTC_4fb7e -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c7c47/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c7c47.dir/build.make CMakeFiles/cmTC_c7c47.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7c47.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_c7c47.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_c7c47
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7c47.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_c7c47.dir/CheckIncludeFiles.c.o  -o cmTC_c7c47 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_56f0d/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_56f0d.dir/build.make CMakeFiles/cmTC_56f0d.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56f0d.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_56f0d.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_56f0d
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56f0d.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_56f0d.dir/CheckIncludeFiles.c.o  -o cmTC_56f0d -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/ioctl.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5602b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5602b.dir/build.make CMakeFiles/cmTC_5602b.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5602b.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_5602b.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_5602b
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5602b.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_5602b.dir/CheckIncludeFiles.c.o  -o cmTC_5602b -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/param.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b5c13/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b5c13.dir/build.make CMakeFiles/cmTC_b5c13.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5c13.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_b5c13.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_b5c13
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5c13.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_b5c13.dir/CheckIncludeFiles.c.o  -o cmTC_b5c13 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/select.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2a939/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_2a939.dir/build.make CMakeFiles/cmTC_2a939.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a939.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_2a939.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_2a939
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a939.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_2a939.dir/CheckIncludeFiles.c.o  -o cmTC_2a939 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a69fc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a69fc.dir/build.make CMakeFiles/cmTC_a69fc.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a69fc.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_a69fc.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a69fc
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a69fc.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_a69fc.dir/CheckIncludeFiles.c.o  -o cmTC_a69fc -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6238e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_6238e.dir/build.make CMakeFiles/cmTC_6238e.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6238e.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_6238e.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_6238e
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6238e.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_6238e.dir/CheckIncludeFiles.c.o  -o cmTC_6238e -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ab34c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ab34c.dir/build.make CMakeFiles/cmTC_ab34c.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab34c.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_ab34c.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_ab34c
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab34c.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_ab34c.dir/CheckIncludeFiles.c.o  -o cmTC_ab34c -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e45b6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e45b6.dir/build.make CMakeFiles/cmTC_e45b6.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e45b6.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_e45b6.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_e45b6
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e45b6.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_e45b6.dir/CheckIncludeFiles.c.o  -o cmTC_e45b6 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1f147/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1f147.dir/build.make CMakeFiles/cmTC_1f147.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f147.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_1f147.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_1f147
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f147.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_1f147.dir/CheckIncludeFiles.c.o  -o cmTC_1f147 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_21557/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_21557.dir/build.make CMakeFiles/cmTC_21557.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21557.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_21557.dir/CheckIncludeFiles.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_21557
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21557.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_21557.dir/CheckIncludeFiles.c.o  -o cmTC_21557 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_SOCKLEN_T succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5f0f0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5f0f0.dir/build.make CMakeFiles/cmTC_5f0f0.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f0f0.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SOCKLEN_T -fPIE   -o CMakeFiles/cmTC_5f0f0.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5f0f0
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f0f0.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_SOCKLEN_T    CMakeFiles/cmTC_5f0f0.dir/src.c.o  -o cmTC_5f0f0 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			socklen_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_BOOL_T succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fcd48/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fcd48.dir/build.make CMakeFiles/cmTC_fcd48.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcd48.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_BOOL_T -fPIE   -o CMakeFiles/cmTC_fcd48.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fcd48
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcd48.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_BOOL_T    CMakeFiles/cmTC_fcd48.dir/src.c.o  -o cmTC_fcd48 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			bool var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SSIZE_T succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_20e60/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_20e60.dir/build.make CMakeFiles/cmTC_20e60.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20e60.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SSIZE_T -fPIE   -o CMakeFiles/cmTC_20e60.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_20e60
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20e60.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_SSIZE_T    CMakeFiles/cmTC_20e60.dir/src.c.o  -o cmTC_20e60 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			ssize_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_LONGLONG succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0d802/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_0d802.dir/build.make CMakeFiles/cmTC_0d802.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d802.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_LONGLONG -fPIE   -o CMakeFiles/cmTC_0d802.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0d802
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d802.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_LONGLONG    CMakeFiles/cmTC_0d802.dir/src.c.o  -o cmTC_0d802 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			long long var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_48f5e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_48f5e.dir/build.make CMakeFiles/cmTC_48f5e.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48f5e.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SIG_ATOMIC_T -fPIE   -o CMakeFiles/cmTC_48f5e.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_48f5e
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48f5e.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_SIG_ATOMIC_T    CMakeFiles/cmTC_48f5e.dir/src.c.o  -o cmTC_48f5e -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			sig_atomic_t var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_ADDRINFO succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a6cf5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a6cf5.dir/build.make CMakeFiles/cmTC_a6cf5.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6cf5.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_ADDRINFO -fPIE   -o CMakeFiles/cmTC_a6cf5.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a6cf5
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6cf5.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_STRUCT_ADDRINFO    CMakeFiles/cmTC_a6cf5.dir/src.c.o  -o cmTC_a6cf5 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct addrinfo var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_IN6_ADDR succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_28cad/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_28cad.dir/build.make CMakeFiles/cmTC_28cad.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28cad.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_IN6_ADDR -fPIE   -o CMakeFiles/cmTC_28cad.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_28cad
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28cad.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_STRUCT_IN6_ADDR    CMakeFiles/cmTC_28cad.dir/src.c.o  -o cmTC_28cad -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct in6_addr var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_IN6 succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e8190/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e8190.dir/build.make CMakeFiles/cmTC_e8190.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8190.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_SOCKADDR_IN6 -fPIE   -o CMakeFiles/cmTC_e8190.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8190
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8190.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_STRUCT_SOCKADDR_IN6    CMakeFiles/cmTC_e8190.dir/src.c.o  -o cmTC_e8190 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_in6 var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_STORAGE succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_de7b3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_de7b3.dir/build.make CMakeFiles/cmTC_de7b3.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_de7b3.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_SOCKADDR_STORAGE -fPIE   -o CMakeFiles/cmTC_de7b3.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_de7b3
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de7b3.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_STRUCT_SOCKADDR_STORAGE    CMakeFiles/cmTC_de7b3.dir/src.c.o  -o cmTC_de7b3 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct sockaddr_storage var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_21dba/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_21dba.dir/build.make CMakeFiles/cmTC_21dba.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21dba.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_STRUCT_TIMEVAL -fPIE   -o CMakeFiles/cmTC_21dba.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_21dba
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21dba.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_STRUCT_TIMEVAL    CMakeFiles/cmTC_21dba.dir/src.c.o  -o cmTC_21dba -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		#include <stdlib.h>
+	
+		#include <stdbool.h>
+		#include <sys/types.h>
+		#include <arpa/inet.h>
+		#include <arpa/nameser.h>
+		#include <netdb.h>
+		#include <net/if.h>
+		#include <netinet/in.h>
+		#include <netinet/tcp.h>
+		#include <signal.h>
+		#include <stdlib.h>
+		#include <string.h>
+		#include <strings.h>
+		#include <sys/ioctl.h>
+		#include <sys/select.h>
+		#include <sys/socket.h>
+		#include <sys/time.h>
+		#include <sys/uio.h>
+		#include <time.h>
+		#include <fcntl.h>
+		#include <unistd.h>
+		int main() {
+			struct timeval var_exists;
+			(void)var_exists;
+			return 0;
+		}
+	
+Determining if the AF_INET6 exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_5e1b6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_5e1b6.dir/build.make CMakeFiles/cmTC_5e1b6.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e1b6.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_5e1b6.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5e1b6
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e1b6.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_5e1b6.dir/CheckSymbolExists.c.o  -o cmTC_5e1b6 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef AF_INET6
+  return ((int*)(&AF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the O_NONBLOCK exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1031e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1031e.dir/build.make CMakeFiles/cmTC_1031e.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1031e.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_1031e.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1031e
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1031e.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_1031e.dir/CheckSymbolExists.c.o  -o cmTC_1031e -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_NONBLOCK
+  return ((int*)(&O_NONBLOCK))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONBIO exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_eab48/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_eab48.dir/build.make CMakeFiles/cmTC_eab48.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eab48.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_eab48.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eab48
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eab48.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_eab48.dir/CheckSymbolExists.c.o  -o cmTC_eab48 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONBIO
+  return ((int*)(&FIONBIO))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SIOCGIFADDR exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_51699/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_51699.dir/build.make CMakeFiles/cmTC_51699.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51699.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_51699.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_51699
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51699.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_51699.dir/CheckSymbolExists.c.o  -o cmTC_51699 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIOCGIFADDR
+  return ((int*)(&SIOCGIFADDR))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the MSG_NOSIGNAL exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8f4e5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8f4e5.dir/build.make CMakeFiles/cmTC_8f4e5.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f4e5.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_8f4e5.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8f4e5
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f4e5.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_8f4e5.dir/CheckSymbolExists.c.o  -o cmTC_8f4e5 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef MSG_NOSIGNAL
+  return ((int*)(&MSG_NOSIGNAL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the PF_INET6 exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_71986/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_71986.dir/build.make CMakeFiles/cmTC_71986.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71986.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_71986.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_71986
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71986.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_71986.dir/CheckSymbolExists.c.o  -o cmTC_71986 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PF_INET6
+  return ((int*)(&PF_INET6))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the CLOCK_MONOTONIC exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_25d41/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_25d41.dir/build.make CMakeFiles/cmTC_25d41.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25d41.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_25d41.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_25d41
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25d41.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_25d41.dir/CheckSymbolExists.c.o  -o cmTC_25d41 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef CLOCK_MONOTONIC
+  return ((int*)(&CLOCK_MONOTONIC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_aed11/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_aed11.dir/build.make CMakeFiles/cmTC_aed11.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aed11.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID -fPIE   -o CMakeFiles/cmTC_aed11.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aed11
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aed11.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_SOCKADDR_IN6_SIN6_SCOPE_ID    CMakeFiles/cmTC_aed11.dir/src.c.o  -o cmTC_aed11 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_in6 *)0)->sin6_scope_id);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_LL succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_3fba9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_3fba9.dir/build.make CMakeFiles/cmTC_3fba9.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fba9.dir/src.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -DHAVE_LL -fPIE   -o CMakeFiles/cmTC_3fba9.dir/src.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3fba9
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fba9.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_LL    CMakeFiles/cmTC_3fba9.dir/src.c.o  -o cmTC_3fba9 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { int n=1234LL; return 0; }
+Determining if the connect exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e4eb1/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e4eb1.dir/build.make CMakeFiles/cmTC_e4eb1.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4eb1.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_e4eb1.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e4eb1
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4eb1.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_e4eb1.dir/CheckSymbolExists.c.o  -o cmTC_e4eb1 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef connect
+  return ((int*)(&connect))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fcntl exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_54247/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_54247.dir/build.make CMakeFiles/cmTC_54247.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54247.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_54247.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_54247
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54247.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_54247.dir/CheckSymbolExists.c.o  -o cmTC_54247 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fcntl
+  return ((int*)(&fcntl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_20599/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_20599.dir/build.make CMakeFiles/cmTC_20599.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20599.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_20599.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_20599
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20599.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_20599.dir/CheckSymbolExists.c.o  -o cmTC_20599 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_56f4b/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_56f4b.dir/build.make CMakeFiles/cmTC_56f4b.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56f4b.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_56f4b.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_56f4b
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56f4b.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_56f4b.dir/CheckSymbolExists.c.o  -o cmTC_56f4b -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getenv exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_8af92/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_8af92.dir/build.make CMakeFiles/cmTC_8af92.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8af92.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_8af92.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8af92
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8af92.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_8af92.dir/CheckSymbolExists.c.o  -o cmTC_8af92 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyaddr exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c4923/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c4923.dir/build.make CMakeFiles/cmTC_c4923.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4923.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_c4923.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c4923
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4923.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_c4923.dir/CheckSymbolExists.c.o  -o cmTC_c4923 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyaddr
+  return ((int*)(&gethostbyaddr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ee3fb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ee3fb.dir/build.make CMakeFiles/cmTC_ee3fb.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee3fb.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_ee3fb.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ee3fb
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee3fb.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_ee3fb.dir/CheckSymbolExists.c.o  -o cmTC_ee3fb -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gethostname exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d6cf7/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d6cf7.dir/build.make CMakeFiles/cmTC_d6cf7.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6cf7.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_d6cf7.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d6cf7
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6cf7.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_d6cf7.dir/CheckSymbolExists.c.o  -o cmTC_d6cf7 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostname
+  return ((int*)(&gethostname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getnameinfo exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fc773/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fc773.dir/build.make CMakeFiles/cmTC_fc773.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc773.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_fc773.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fc773
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc773.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_fc773.dir/CheckSymbolExists.c.o  -o cmTC_fc773 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getnameinfo
+  return ((int*)(&getnameinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getservbyport_r exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_07f06/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_07f06.dir/build.make CMakeFiles/cmTC_07f06.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07f06.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_07f06.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_07f06
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07f06.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_07f06.dir/CheckSymbolExists.c.o  -o cmTC_07f06 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyport_r
+  return ((int*)(&getservbyport_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_b490c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b490c.dir/build.make CMakeFiles/cmTC_b490c.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b490c.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_b490c.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b490c
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b490c.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_b490c.dir/CheckSymbolExists.c.o  -o cmTC_b490c -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the if_indextoname exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a9a61/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a9a61.dir/build.make CMakeFiles/cmTC_a9a61.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9a61.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_a9a61.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a9a61
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9a61.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_a9a61.dir/CheckSymbolExists.c.o  -o cmTC_a9a61 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef if_indextoname
+  return ((int*)(&if_indextoname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_ntop exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d4a97/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d4a97.dir/build.make CMakeFiles/cmTC_d4a97.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4a97.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_d4a97.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d4a97
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4a97.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_d4a97.dir/CheckSymbolExists.c.o  -o cmTC_d4a97 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_ntop
+  return ((int*)(&inet_ntop))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the inet_pton exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_beef3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_beef3.dir/build.make CMakeFiles/cmTC_beef3.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_beef3.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_beef3.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_beef3
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_beef3.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_beef3.dir/CheckSymbolExists.c.o  -o cmTC_beef3 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ioctl exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_1e628/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1e628.dir/build.make CMakeFiles/cmTC_1e628.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e628.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_1e628.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1e628
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e628.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_1e628.dir/CheckSymbolExists.c.o  -o cmTC_1e628 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ioctl
+  return ((int*)(&ioctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recv exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d56de/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d56de.dir/build.make CMakeFiles/cmTC_d56de.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d56de.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_d56de.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d56de
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d56de.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_d56de.dir/CheckSymbolExists.c.o  -o cmTC_d56de -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recv
+  return ((int*)(&recv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the recvfrom exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_00641/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_00641.dir/build.make CMakeFiles/cmTC_00641.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00641.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_00641.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_00641
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00641.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_00641.dir/CheckSymbolExists.c.o  -o cmTC_00641 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef recvfrom
+  return ((int*)(&recvfrom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the send exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_a05c4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a05c4.dir/build.make CMakeFiles/cmTC_a05c4.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a05c4.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_a05c4.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a05c4
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a05c4.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_a05c4.dir/CheckSymbolExists.c.o  -o cmTC_a05c4 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef send
+  return ((int*)(&send))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_44fd5/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_44fd5.dir/build.make CMakeFiles/cmTC_44fd5.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44fd5.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_44fd5.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_44fd5
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44fd5.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_44fd5.dir/CheckSymbolExists.c.o  -o cmTC_44fd5 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the socket exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e6638/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e6638.dir/build.make CMakeFiles/cmTC_e6638.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6638.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_e6638.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e6638
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6638.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_e6638.dir/CheckSymbolExists.c.o  -o cmTC_e6638 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef socket
+  return ((int*)(&socket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_97b16/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_97b16.dir/build.make CMakeFiles/cmTC_97b16.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97b16.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_97b16.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_97b16
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97b16.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_97b16.dir/CheckSymbolExists.c.o  -o cmTC_97b16 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_89255/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_89255.dir/build.make CMakeFiles/cmTC_89255.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89255.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_89255.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_89255
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89255.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_89255.dir/CheckSymbolExists.c.o  -o cmTC_89255 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_44686/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_44686.dir/build.make CMakeFiles/cmTC_44686.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44686.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_44686.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_44686
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44686.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_44686.dir/CheckSymbolExists.c.o  -o cmTC_44686 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the writev exist passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fca61/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fca61.dir/build.make CMakeFiles/cmTC_fca61.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fca61.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -D_GNU_SOURCE -D_POSIX_C_SOURCE=199309L -D_XOPEN_SOURCE=600  -fPIE   -o CMakeFiles/cmTC_fca61.dir/CheckSymbolExists.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_fca61
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fca61.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_fca61.dir/CheckSymbolExists.c.o  -o cmTC_fca61 -rdynamic -lnsl -lrt 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+File /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdbool.h>
+#include <sys/types.h>
+#include <arpa/inet.h>
+#include <arpa/nameser.h>
+#include <netdb.h>
+#include <net/if.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/ioctl.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/time.h>
+#include <sys/uio.h>
+#include <time.h>
+#include <fcntl.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test protobuf_HAVE_BUILTIN_ATOMICS succeeded with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7246a/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7246a.dir/build.make CMakeFiles/cmTC_7246a.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7246a.dir/src.cxx.o
+/usr/bin/c++     -Dprotobuf_HAVE_BUILTIN_ATOMICS -std=c++11 -fPIE   -o CMakeFiles/cmTC_7246a.dir/src.cxx.o -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7246a
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7246a.dir/link.txt --verbose=1
+/usr/bin/c++     -Dprotobuf_HAVE_BUILTIN_ATOMICS -std=c++11    CMakeFiles/cmTC_7246a.dir/src.cxx.o  -o cmTC_7246a -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <atomic>
+    int main() {
+      return std::atomic<int64_t>{};
+    }
+  
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f4e0f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f4e0f.dir/build.make CMakeFiles/cmTC_f4e0f.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4e0f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_f4e0f.dir/CheckIncludeFile.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f4e0f
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4e0f.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_f4e0f.dir/CheckIncludeFile.c.o  -o cmTC_f4e0f -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_11a48/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_11a48.dir/build.make CMakeFiles/cmTC_11a48.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11a48.dir/OFF64_T.c.o
+/usr/bin/cc  -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fPIE   -o CMakeFiles/cmTC_11a48.dir/OFF64_T.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_11a48
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11a48.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_11a48.dir/OFF64_T.c.o  -o cmTC_11a48 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_89cf0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_89cf0.dir/build.make CMakeFiles/cmTC_89cf0.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89cf0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=fseeko -fPIE   -o CMakeFiles/cmTC_89cf0.dir/CheckFunctionExists.c.o   -c /usr/local/cmake/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89cf0
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89cf0.dir/link.txt --verbose=1
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTC_89cf0.dir/CheckFunctionExists.c.o  -o cmTC_89cf0 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/gitfork/grpc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e6369/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e6369.dir/build.make CMakeFiles/cmTC_e6369.dir/build
+gmake[1]: Entering directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6369.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIE   -o CMakeFiles/cmTC_e6369.dir/CheckIncludeFile.c.o   -c /home/gitfork/grpc/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e6369
+/usr/local/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6369.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTC_e6369.dir/CheckIncludeFile.c.o  -o cmTC_e6369 -rdynamic 
+gmake[1]: Leaving directory `/home/gitfork/grpc/build/CMakeFiles/CMakeTmp'
+
+

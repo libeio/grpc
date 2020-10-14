@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../third_party/abseil-cpp/absl/base/config.h
+limits.h
+-
+cstddef
+-
+Availability.h
+-
+TargetConditionals.h
+-
+absl/base/options.h
+../third_party/abseil-cpp/absl/base/absl/base/options.h
+absl/base/policy_checks.h
+../third_party/abseil-cpp/absl/base/absl/base/policy_checks.h
+android/ndk-version.h
+-
+
+../third_party/abseil-cpp/absl/base/options.h
+ciso646
+-
+
+../third_party/abseil-cpp/absl/base/policy_checks.h
+limits.h
+-
+cstddef
+-
+
+../third_party/abseil-cpp/absl/debugging/leak_check.h
+cstddef
+-
+absl/base/config.h
+../third_party/abseil-cpp/absl/debugging/absl/base/config.h
+
+/home/gitfork/grpc/third_party/abseil-cpp/absl/debugging/leak_check.cc
+absl/debugging/leak_check.h
+/home/gitfork/grpc/third_party/abseil-cpp/absl/debugging/absl/debugging/leak_check.h
+sanitizer/lsan_interface.h
+-
+
