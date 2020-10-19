@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.5.0)
 
 project("grpc Test" C CXX)
 
-option(BUILD_1_FIRST_TEST "Build 1-first program" ON)
+option(BUILD_1_FIRST_TEST  "Build 1-first program"      ON)
+option(BUILD_2_SECOND_TEST "Build 2-second program"     ON)
 
 #
 # if u wanna release, do like this `cmake -DCMAKE_BUILD_TYPE=Release`
@@ -63,6 +64,10 @@ string(REGEX REPLACE "^lib" "" grpc++_reflection_LIBRARY_NAME ${grpc++_reflectio
 #
 if(BUILD_1_FIRST_TEST)
     add_subdirectory(1-first)
+endif()
+
+if(BUILD_2_SECOND_TEST)
+    add_subdirectory(2-second)
 endif()
 
 #

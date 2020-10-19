@@ -1,5 +1,8 @@
 
-## 学习参考
+## 文档参考
+- [GRPC C++ Doxygen](https://grpc.github.io/grpc/cpp/index.html)
+
+## 其他参考
 - [gRPC 编译安装总结](https://segmentfault.com/a/1190000020812273?utm_source=tag-newest)
 - [各系统编译安装说明](../BUILDING.md)
 - [protoc不生成.proto中的service,只生成model相关类，求助](https://segmentfault.com/q/1010000013399560)
@@ -39,7 +42,7 @@
 ```shell
     /usr/local/grpc/bin/protoc --proto_path=. --cpp_out=. helloworld.proto
 
-    /usr/local/grpc/bin/protoc --plugin=protoc-gen-grpc-cpp=/home/gitfork/grpc/build/grpc_cpp_plugin --proto_path=. --grpc-cpp_out=. helloworld.proto
+    /usr/local/grpc/bin/protoc --plugin=protoc-gen-grpc=/home/gitfork/grpc/build/grpc_cpp_plugin --proto_path=. --grpc-cpp_out=. helloworld.proto
 ```
 第一条生成 model，第二条在已有的 model 基础上生成 service 。
 
