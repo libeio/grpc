@@ -60,6 +60,11 @@ get_filename_component(grpc++_reflection_LIBRARY_NAME ${grpc++_reflection_LIBRAR
 string(REGEX REPLACE "^lib" "" grpc++_reflection_LIBRARY_NAME ${grpc++_reflection_LIBRARY_NAME})
 
 #
+# Other Dependencies
+#
+link_directories(${PROJECT_SOURCE_DIR}/../build/third_party)
+
+#
 # Test in Sub Directories
 #
 if(BUILD_1_FIRST_TEST)

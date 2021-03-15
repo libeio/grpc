@@ -6,6 +6,9 @@ cmake_minimum_required(VERSION 3.5.0)
 ## /usr/local/grpc/bin/protoc --plugin=protoc-gen-grpc=/home/gitfork/grpc/build/grpc_cpp_plugin --proto_path=. --grpc-cpp_out=. helloworld.proto
 
 include_directories(.)
+link_directories(${PROJECT_SOURCE_DIR}/../build/third_party)
+
+message("========>${PROJECT_SOURCE_DIR}/../build/third_party")
 
 add_executable(greeter_client greeter_client.cpp helloworld.pb.cc helloworld.grpc.pb.cc)
 target_link_libraries(greeter_client ${protobuf_LIBRARY_NAME} ${grpc_LIBRARY_NAME} ${grpc++_LIBRARY_NAME} ${grpc++_reflection})
