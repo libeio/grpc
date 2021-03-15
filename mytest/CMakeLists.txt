@@ -63,11 +63,11 @@ string(REGEX REPLACE "^lib" "" grpc++_reflection_LIBRARY_NAME ${grpc++_reflectio
 # Test in Sub Directories
 #
 if(BUILD_1_FIRST_TEST)
-    add_subdirectory(1-first)
+    add_subdirectory(01_first)
 endif()
 
 if(BUILD_2_SECOND_TEST)
-    add_subdirectory(2-second)
+    add_subdirectory(02_second)
 endif()
 
 #
