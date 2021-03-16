@@ -31,6 +31,7 @@
     make -j4
     make install
 ```
+注意: 在安装时要求 CMake 版本必须 >= 3.13, 否则安装会不合预期。
 
 执行完 `make install` 后，顺利的各方面，在 `/usr/local/grpc/lib64` 目录下会看到 protobuf, re2, grpc 等相关库文件，在 `/usr/local/grpc/lib` 目录下会看到其他要依赖的库文件。
 
