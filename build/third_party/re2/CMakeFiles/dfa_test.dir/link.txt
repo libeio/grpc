@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/dfa_test.dir/re2/testing/dfa_test.cc.o CMakeFiles/dfa_test.dir/util/test.cc.o  -o dfa_test -Wl,-rpath,/home/gitfork/grpc/build/third_party/re2 libtesting.a libre2.so -pthread 

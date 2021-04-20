@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/simplify_test.dir/re2/testing/simplify_test.cc.o CMakeFiles/simplify_test.dir/util/test.cc.o  -o simplify_test -Wl,-rpath,/home/gitfork/grpc/build/third_party/re2 libtesting.a libre2.so -pthread 

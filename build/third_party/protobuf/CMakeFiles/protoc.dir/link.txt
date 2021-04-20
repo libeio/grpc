@@ -1,0 +1,1 @@
+/usr/bin/c++     -rdynamic CMakeFiles/protoc.dir/__/src/google/protobuf/compiler/main.cc.o  -o protoc-3.13.0.0 -Wl,-rpath,/home/gitfork/grpc/build/third_party/protobuf: libprotoc.so.3.13.0.0 libprotobuf.so.3.13.0.0 -lpthread 

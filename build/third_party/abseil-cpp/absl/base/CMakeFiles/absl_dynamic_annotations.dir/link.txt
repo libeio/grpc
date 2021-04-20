@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC    -shared -Wl,-soname,libabsl_dynamic_annotations.so -o libabsl_dynamic_annotations.so CMakeFiles/absl_dynamic_annotations.dir/dynamic_annotations.cc.o 

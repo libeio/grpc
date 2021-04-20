@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/required_prefix_test.dir/re2/testing/required_prefix_test.cc.o CMakeFiles/required_prefix_test.dir/util/test.cc.o  -o required_prefix_test -Wl,-rpath,/home/gitfork/grpc/build/third_party/re2 libtesting.a libre2.so -pthread 

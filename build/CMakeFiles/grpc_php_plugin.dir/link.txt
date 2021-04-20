@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/grpc_php_plugin.dir/src/compiler/php_plugin.cc.o  -o grpc_php_plugin -Wl,-rpath,/home/gitfork/grpc/build:/home/gitfork/grpc/build/third_party/protobuf: -ldl -lrt -lm -lpthread libgrpc_plugin_support.so.1.32.0 third_party/protobuf/libprotoc.so.3.13.0.0 third_party/protobuf/libprotobuf.so.3.13.0.0 -lpthread -ldl -lrt -lm -lpthread 

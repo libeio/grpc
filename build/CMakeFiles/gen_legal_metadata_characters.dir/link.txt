@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/gen_legal_metadata_characters.dir/tools/codegen/core/gen_legal_metadata_characters.cc.o  -o gen_legal_metadata_characters -Wl,-rpath,/home/gitfork/grpc/build/third_party/protobuf third_party/protobuf/libprotobuf.so.3.13.0.0 -ldl -lrt -lm -lpthread -lpthread 
